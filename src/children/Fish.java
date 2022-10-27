@@ -1,6 +1,8 @@
 package children;
 
-public class Fish {
+import parent.Animal;
+
+public class Fish extends Animal{
 
     private String habitat;
     private boolean withGills;

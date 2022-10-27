@@ -3,14 +3,14 @@ package parent;
 public class Animal {
     private double height;
     private double weight;
-    private double animalType;
+    private String animalType;
     private String bloodType;
 
     public Animal() {
         this.height = 0.0;
         this.weight = 0.0;
         this.animalType = "unknown";
-        this.bloodType = "unknown"
+        this.bloodType = "unknown";
     }
 
     public Animal(double height, double weight, String animalType, String bloodType) {

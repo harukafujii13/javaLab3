@@ -1,19 +1,23 @@
 package children;
 
-public class Rapitile {
+import parent.Animal;
+
+public class Rapitile extends Animal{
 
     private String skinType;
-    private String skeletalstructure;
+    private String skeletalStructure;
     private String eggType;
 
-    public Reptile() {
+
+
+    public Rapitile() {
         super();
         this.skinType = "Dry Skin";
         this.skeletalStructure = "Vertebrae";
         this.eggType = "Soft-shelled Eggs";
     }
 
-    public Reptile(double height, double weight, String animalType, String bloodType, String skinType,
+    public Rapitile(double height, double weight, String animalType, String bloodType, String skinType,
             String skeletalStructure, String eggType) {
         super(height, weight, animalType, bloodType);
         this.skinType = skinType;

@@ -4,7 +4,7 @@ public class App {
         Crocodile croc = new Crocodile();
         System.out.println(croc.showInfo());
 
-        Eel eel = new Eel();
+        Ele eel = new Ele();
         System.out.println(eel.showInfo());
 
         Eagle eagle = new Eagle();

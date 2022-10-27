@@ -9,7 +9,7 @@ public class Ele extends Fish {
         this.feature = "Release Electric Charge";
     }
 
-    public Eel(double height, double weight, String animalType, String bloodType, String habitat, boolean withGills,
+    public Ele(double height, double weight, String animalType, String bloodType, String habitat, boolean withGills,
             String feature) {
         super(height, weight, animalType, bloodType, habitat, withGills);
         this.feature = feature;

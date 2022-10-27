@@ -1,6 +1,8 @@
 package children;
 
-public class Bird {
+import parent.Animal;
+
+public class Bird extends Animal{
     
     private boolean featherless;
     private boolean flightless;
